@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Experiment outputs
+results/
+runs/
+logs/
+*.log
+checkpoints/
+ckpts/
+*.ckpt
+*.pt
+*.pth
+*.h5
+
+# Cache & tmp
+.cache/
+tmp/
+temp/
+data/**/data_cache.pkl
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
