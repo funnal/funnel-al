@@ -312,7 +312,7 @@ def main():
             break
         ratio = labeled_now / float(total)
         print(f"\nRound {rnd} | Labeled: {labeled_now} ({ratio:.1%}) | "
-              f"Unlabeled: {len(unlabeled_src)} | Negative: {len(negative_pairs)}")
+              f"Unlabeled: {len(unlabeled_src)}")
 
         if rnd == 0:
             budget = min(init_budget, len(unlabeled_src))
